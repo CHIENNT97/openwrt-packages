@@ -104,11 +104,11 @@ apn = s:taboption("advanced", Value, "apn", translate("APN"))
 apn.default = ""
 apn.rmempty = true
 apn:value("", translate("Auto Choose"))
-apn:value("cmnet", translate("China Mobile"))
-apn:value("3gnet", translate("China Unicom"))
-apn:value("ctnet", translate("China Telecom"))
-apn:value("cbnet", translate("China Broadcast"))
-apn:value("5gscuiot", translate("Skytone"))
+apn:value("v-internet", translate("Viettel"))
+apn:value("m3-world", translate("VINA"))
+apn:value("m-wap", translate("Mobi"))
+apn:value("m9-itelecom", translate("Itel"))
+apn:value("m9-wintel", translate("Wintel"))
 
 auth = s:taboption("advanced", ListValue, "auth", translate("Authentication Type"))
 auth.default = "none"
